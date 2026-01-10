@@ -1,0 +1,56 @@
+# ============================
+# 🐍 Python / Virtual Envs
+# ============================
+
+# Virtual environments
+.venv310/
+.virtual-envs/
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ============================
+# 🧠 ML / Model Cache
+# ============================
+
+# SentenceTransformer / HuggingFace cache
+.cache/
+.cache/
+**/.cache/
+
+# Pathway cache / temp files
+*.db
+*.log
+*.tmp
+
+# ============================
+# 🧪 OS & Editor junk
+# ============================
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+# ============================
+# 📊 Large generated files
+# ============================
+
+# If you want, keep results.csv tracked.
+# If not, comment this out.
+# results.csv
+
+# ============================
+# 🔐 Secrets
+# ============================
+
+*.key
+*.pem
+*.secret
+.env.local
+.env.production
