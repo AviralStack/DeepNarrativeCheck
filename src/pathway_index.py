@@ -12,7 +12,7 @@ class LocalVectorStore:
         print(f"   --> Encoding {len(self.chunks)} chunks... (this might take 30s)")
         
         if not self.chunks:
-            print("   ⚠️ WARNING: No chunks found. The book might be empty or failed to parse.")
+            print("WARNING: No chunks found. The book might be empty or failed to parse.")
             self.embeddings = None
             return
 

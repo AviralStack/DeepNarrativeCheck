@@ -1,0 +1,9 @@
+pathway
+pathway[xpack-llm-docs]
+ollama
+sentence-transformers
+pandas
+tiktoken
+pdf2image
+unstructured
+torch
